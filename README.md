@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3><b>Hello world Backend app</b></h3>
+  <h3><b>Hello world Frontend app</b></h3>
 
 </div>
 
@@ -27,9 +27,9 @@
   - [❓ FAQ (OPTIONAL) ](#-faq-optional-)
   - [📝 License ](#-license-)
 
-# 📖 Ruby on Rails - Hello world React Rails app <a name="about-project"></a>
+# 📖 Hello world frontend app <a name="about-project"></a>
 
-Set up a "Hello world" project as one app with Webpack. By now you've used many different gems with Rails and this exercise will have you connect previous knowledge with new knowledge as you get a chance to use Webpack with jsbundling-rails gem.
+**Hello world app** is a full web project, split into two parts, the front-end, and the back-end. The front-end is based on react and the <a href="https://github.com/MenendezON/hello-world-backend">back-end</a> on ruby on rails using Postgresql for the database.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,68 +42,41 @@ Set up a "Hello world" project as one app with Webpack. By now you've used many 
   </ul>
 </details>
 
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://rubyonrails.org/">Rails</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
-
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
-- Display Greetings message
 - Display random greeting
-- Display random greeting with name
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+clone the project
 
-### Prerequisites
+### `clone git@github.com:MenendezON/hello-world-frontend.git`
 
-In order to run this project you need:
+## Available Scripts
+In the project directory, you can run:
 
-`gem install rails`
+### `npm start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### Setup
- 
-Clone this repository to your desired folder:
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-`git clone https://github.com/Abdulwhbhussain/hello-rails-react.git`
+### `npm test`
 
-then
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-`cd hello-rails-react`
+### `npm run build`
 
-### Install
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-Install this project with:
-
-`bundle install`
-
-### Usage
-
-`rails s`
-
-### Run Linters
-
-To run tests, run the following command:
-
-`rubocop`
-
-**it will automatically correct the errors**
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
