@@ -19,6 +19,6 @@ const App = () => {
       <Route path="/" element={<Greeting />} />
     </Routes>
   );
-}
+};
 
 export default App;

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { useSelector } from 'react-redux';
 
 const Greeting = () => {
@@ -21,6 +21,7 @@ const Greeting = () => {
       <h1>{ message }</h1>
     );
   }
+  return null;
 };
 
 export default Greeting;
